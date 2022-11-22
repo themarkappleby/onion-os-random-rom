@@ -1,0 +1,6 @@
+{
+"label":"Random Game",
+"icon":"icon.png",
+"launch":"launch.sh",
+"description":"Play random game"
+}
