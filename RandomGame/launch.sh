@@ -15,6 +15,11 @@ file=$(echo "$files" | sed -n $num'p')
 # Get folder name of the random file
 dir=$(dirname "$file")
 dir=$(basename "$dir")
+emu=$dir
+if [ "$emu" = "PS" ]
+then
+  emu='PSX'
+fi
 file=$(basename "$file")
 
-sh /mnt/SDCARD/Emu/"$dir"/launch.sh /mnt/SDCARD/Roms/"$dir"/"$file"
+sh /mnt/SDCARD/Emu/"$emu"/launch.sh /mnt/SDCARD/Roms/"$dir"/"$file"
