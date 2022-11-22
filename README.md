@@ -1,8 +1,8 @@
 ![Random Game](RandomGame/icon.png)
 
-# Onion OS - Random ROM
+# Random Game App for Onion OS
 
-A custom app for Miyoo Mini's [Onion OS](https://github.com/OnionUI/Onion/wiki). Running the app will instantly start a random game from your collection. Perfect for when you're feeling overwhelemed with options and not sure what to play.
+A custom app for Miyoo Mini's [Onion OS](https://github.com/OnionUI/Onion/wiki). Running the app will instantly start a random game from your collection. Perfect for when you're feeling overwhelmed with options and are not sure what to play next.
 
 ## Installation
 
@@ -19,16 +19,16 @@ A custom app for Miyoo Mini's [Onion OS](https://github.com/OnionUI/Onion/wiki).
 
 At present, this app will randomly pick a ROM with one of the following extensions:
 
-1. .zip
-1. .nes
-1. .gba
-1. .gb
-1. .gbc
-1. .md
-1. .ngp
-1. .chd
-1. .pbp
-1. .sfc
+1. `.zip`
+1. `.nes`
+1. `.gba`
+1. `.gb`
+1. `.gbc`
+1. `.md`
+1. `.ngp`
+1. `.chd`
+1. `.pbp`
+1. `.sfc`
 
 You can add/remove eligible extensions by editing `/RandomGame/launch.sh`, line 5.
 
