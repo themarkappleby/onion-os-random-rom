@@ -1,3 +1,5 @@
+![Random Game](RandomGame/icon.png)
+
 # Onion OS - Random ROM
 
 A custom app for Miyoo Mini's [Onion OS](https://github.com/OnionUI/Onion/wiki). Running the app will instantly start a random game from your collection. Perfect for when you're feeling overwhelemed with options and not sure what to play.
