@@ -12,7 +12,7 @@ lines=$((lines - 1))
 num=$((1 + $RANDOM % $lines))
 file=$(echo "$files" | sed -n $num'p')
 
-# Get folder name of the random file
+# Get folder name & emu of the random file
 dir=$(dirname "$file")
 dir=$(basename "$dir")
 emu=$dir
@@ -22,4 +22,5 @@ then
 fi
 file=$(basename "$file")
 
+# Launch the random game
 sh /mnt/SDCARD/Emu/"$emu"/launch.sh /mnt/SDCARD/Roms/"$dir"/"$file"
